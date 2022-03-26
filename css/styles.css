@@ -51,6 +51,11 @@ hr {
   border-style: inset;
   border-width: 1.5px;
 } 
+
+.column p {
+	text-align: center
+}	
+
 .column {
   float: center;
   width: 33.3%;
@@ -131,7 +136,9 @@ h3 {
 	padding-left: 20px;
 	padding-top: 20px;
 }
-
+.row {
+	padding-top: 20px;
+}
 		
 
 @media screen and (max-width: 650px) {
