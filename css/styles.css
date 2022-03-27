@@ -26,8 +26,9 @@ header {
 footer a:hover {
 	opacity: .5;
 }
-navlink a:hover {
-opacity: .5;	
+nav a:hover {
+opacity:.3;
+
 }
 
 body {
@@ -141,10 +142,13 @@ h3 {
 	padding-left: 20px;
 	padding-top: 20px;
 }
-.row {
-	padding-top: 50px;
+
+.home-story {
+	display: block;
+	text-align: center;
+	padding-top: 30px;
 }
-		
+
 
 @media screen and (max-width: 650px) {
   .column {
