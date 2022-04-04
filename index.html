@@ -20,17 +20,16 @@
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/buas-square.svg" width="40" alt="Breda University of Applied Sciences">
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-bottom: 10px">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+		  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/rebellionlogo2.svg" width="40" alt="Rebel Lion Logo">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="product.html">Product</a>
             </li>
@@ -57,8 +56,8 @@
     <!-- Start of carrousel, adapted from https://getbootstrap.com/docs/5.1/components/carousel/ -->
     <section class="container-fluid p-0">
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <img src="images/beerbottle.jpg" class="d-block mx-auto w-100" alt="...">
+        <div class="carousel-inner" style="background-color: #c08000">
+            <img src="images/lineup2.jpg" class="d-block mx-auto" alt="lineup" style="max-width: 100%">
             <div class="carousel-caption">
               <h3>Rebel Lion Official</h3>
               <p>
@@ -71,13 +70,30 @@
     </section>
     <!-- End of carrousel -->
   <main>
-	  <div class="home-story">
-		  <h2>Our Story</h2>
-		 <p>Rebel Lion was created to.....</p>
-		  
-		   <a href="about us.html"> <button type="button" class="btn btn-primary">Read More</button>
-			</a>
-	   </div>
+	  <div class="values" style="padding-top: 50px;">	
+	 <h2 align="center">Values</h2>
+	<br>
+	  <div class="row">
+  			<div class="column-values" align="center">
+			<img src="images/boldness.png" height="75px" alt="boldness" style="margin-bottom: 20px">
+		  <h4> Boldness </h4>
+		  </div>  
+		  	<div class="column-values" align="center">
+				<img src="images/freedom2.jpg" height="80px" alt="Freedom" style="margin-bottom: 15px" >
+		  <h4 align="center">Freedom</h4>
+		  </div>
+		  	<div class="column-values" align="center">
+				<img src="images/control2.png" height="75px" alt="control" style="margin-bottom: 20px">
+		  <h4 align="center">Control</h4>
+		  </div>
+		  	<div class="column-values" align="center">
+				<img src="images/rebel.jpg" height="75px" alt="rebelliousness" style="margin-bottom: 20px">
+		  <h4 align="center"> Rebelliousness </h4>
+		  </div>
+			  
+	  
+</div>
+	  </div>
 	  
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-b5e6b18a-bd94-43e5-9b89-5d78805a38cf"></div>
@@ -89,17 +105,15 @@
         <p>
           © 2021&ndash;2022 &ndash; Rebel Lion
         </p>
-        <ul class="list-unstyled d-flex align-items-center opacity-75">
-         
-          
-          <li>
+        <ul class="list-unstyled d-flex align-items-right opacity-75">
+          <li style="text-align: right">
             <a href="https://www.tiktok.com/@rebel.lion.official" target="_blank">
-              <img class="m-2" src="images/tiktok.png" alt="Follow us on TikTok" width="26">
+              <img class="social-icon" src="images/tiktok.png" alt="Follow us on TikTok" width="26">
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com/rebel.lion.official/" target="_blank">
-              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
+              <img class="social-icon2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
             </a>
           </li>
         </ul>

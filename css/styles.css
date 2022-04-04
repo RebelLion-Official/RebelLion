@@ -77,8 +77,11 @@ hr {
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: #474e5d;
-  color: white;
+}
+
+.our-story {
+  padding: 50px;
+  text-align: center;
 }
 
 .container {
@@ -121,14 +124,11 @@ background-color: aliceblue;
   background-color: #555;
 }
 
-h3 {
-		color:antiquewhite;
-	}
 
 .carousel-caption {
 	position:absolute;
-  	bottom: 150px;
-  	left: -700px;
+  	bottom: 200px;
+  	left: -1000px;
   	color: black;
   	padding-left: 20px;
  	padding-right: 20px;
@@ -149,7 +149,15 @@ h3 {
 	padding-top: 30px;
 }
 
+.social-icon{
+	position: absolute;
+	right: 80px	
+}
 
+.social-icon2{
+	position: absolute;
+	right: 40px;
+}
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
