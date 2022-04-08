@@ -5,7 +5,7 @@
 /* Webfont: HobokenHigh-SansRegular */
 @font-face {
     font-family: 'HobokenHighSans';
-    src: url('HobokenHigh-SansRegular.woff2') format('woff2'), /* Modern Browsers */
+    src: url("../HobokenHigh-SansRegular.woff2") format('woff2'), /* Modern Browsers */
          url('HobokenHigh-SansRegular.otf') format('opentype'); /* Safari, Android, iOS */
              font-style: normal;
     font-weight: normal;
@@ -15,7 +15,7 @@
 /* Webfont: Bradford-Book */
 @font-face {
     font-family: 'BradfordBook';
-    src: url('Bradford-Book.woff2') format('woff2'), /* Modern Browsers */
+    src: url("../Bradford-Book.woff2") format('woff2'), /* Modern Browsers */
          url('Bradford-Book.otf') format('opentype'); /* Safari, Android, iOS */
              font-style: normal;
     font-weight: normal;
@@ -26,7 +26,7 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: 'BradfordBook';
+	font-family: 'BradfordBook', sans-serif;
 	background-color: #fffcf8;
 }
 
@@ -44,7 +44,17 @@ header {
 }
 
 /* Effect on social media buttons */
+h1{
+	font-family: "HobokenHighSans", sans-serif
+}
 
+h3{
+	font-family: "HobokenHighSans", sans-serif
+}
+
+h2{
+	font-family: "HobokenHighSans", sans-serif
+}
 
 footer a:hover {
 	opacity: .5;
