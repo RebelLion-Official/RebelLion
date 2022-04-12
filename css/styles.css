@@ -157,11 +157,16 @@ background-color: aliceblue;
 
 .carousel-caption {
 	position:absolute;
-  	bottom: 200px;
+	left: 2%;
+	bottom: 35%;
+  	/*
+	bottom: 200px;
   	left: -1000px;
   	color: black;
   	padding-left: 20px;
  	padding-right: 20px;
+	*/
+	text-align: left !important;
 }
 .product-page{
 	padding-top: 30px;
@@ -192,6 +197,9 @@ background-color: aliceblue;
   position: relative;
 }
  
+.myclasss{
+	background-image: url("../images/lineup2.jpg")
+}
 
 
 @media screen and (max-width: 650px) {
