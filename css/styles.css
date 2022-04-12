@@ -1,12 +1,8 @@
-/* Importing a Google Font */
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500&display=swap');
 
 /* Webfont: HobokenHigh-SansRegular */
 @font-face {
     font-family: 'HobokenHighSans';
     src: url("../HobokenHigh-SansRegular.woff2") format('woff2'), /* Modern Browsers */
-         url('HobokenHigh-SansRegular.otf') format('opentype'); /* Safari, Android, iOS */
              font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -14,9 +10,8 @@
 
 /* Webfont: Bradford-Book */
 @font-face {
-    font-family: 'BradfordBook';
-    src: url("../Bradford-Book.woff2") format('woff2'), /* Modern Browsers */
-         url('Bradford-Book.otf') format('opentype'); /* Safari, Android, iOS */
+    font-family: 'BradfordLLWebTrial-Book';
+    src: url("../BradfordLLWebTrial-Book.woff") format('woff'), /* Modern Browsers */
              font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -26,7 +21,7 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: 'BradfordBook', sans-serif;
+	font-family: 'BradfordLLWebTrial-Book', sans-serif;
 	background-color: #fffcf8;
 }
 
