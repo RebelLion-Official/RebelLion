@@ -1,12 +1,8 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500&display=swap');
-
 /* Webfont: HobokenHigh-SansRegular */
 @font-face {
-    font-family: 'HobokenHighSans';
-    src: url("../HobokenHigh-SansRegular.woff2") format('woff2'), /* Modern Browsers */
-         url('HobokenHigh-SansRegular.otf') format('opentype'); /* Safari, Android, iOS */
-             font-style: normal;
+    font-family: "HobokenHighSansLLWebTrial-Regular";
+    src: url("../HobokenHighSansLLWebTrial-Regular.woff") format("woff");
+    font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
