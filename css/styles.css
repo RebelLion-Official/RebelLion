@@ -10,7 +10,7 @@
 /* Webfont: Bradford-Book */
 @font-face {
     font-family: "BradfordLLWebTrial-Book";
-    src: url("../BradfordLLWebTrial-Book.woff") format("woff");
+    src: url("BradfordLLWebTrial-Book.woff") format("woff");
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
