@@ -39,10 +39,13 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
-	
+	/* background-color: #fff0e0;
+	*/
+	background-color: #002914;
 }
-
+.nav-link{
+	color: #fffbe6 !important
+}
 /* Effect on social media buttons */
 h1{
 	font-family: "HobokenHighSans", sans-serif
