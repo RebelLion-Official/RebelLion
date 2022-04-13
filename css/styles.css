@@ -26,7 +26,7 @@ body {
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	background-color: #AB0303;
 }
 
 /* Changing the background color for the navigation bar */
@@ -101,15 +101,23 @@ hr {
 }
 
 .about-section {
-  padding: 50px;
+
   text-align: center;
 }
-
-.our-story {
-  padding: 50px;
-  text-align: center;
+.about-section p {
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: center
+}
+.our-story  {
+padding: 40px;
 }
 
+.our-story p {
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: center
+}
 .container {
   padding: 0 16px;
 }
@@ -197,6 +205,11 @@ background-color: aliceblue;
 	background-image: url("../images/lineup2.jpg")
 }
 
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
 
 @media screen and (max-width: 650px) {
   .column {
