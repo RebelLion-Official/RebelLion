@@ -79,6 +79,9 @@ hr {
   border-width: 1.5px;
 } 
 
+iframe{
+	width: 100%;
+}
 .column p {
 	text-align: center
 }	
