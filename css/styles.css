@@ -145,13 +145,13 @@ padding: 40px;
 }
 
 .btn-primary {
-	background-color: lightblue;
-	border-color: lightblue;
-	color: black;
+	background-color: #AB0303;
+	border-color: #AB0303;
+	color: white;
 }
 .btn-primary:hover { 
-background-color: aliceblue;
-	color: black;
+background-color: indianred;
+	color: white;
 }
 
 .button:hover {
