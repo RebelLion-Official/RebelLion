@@ -213,6 +213,9 @@ background-color: indianred;
     object-fit: cover;
 }
 
+.center{
+	text-align: center
+}
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
